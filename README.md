@@ -87,3 +87,28 @@ Other available classifiers include ``resnet34, resnet50``.
 See ``configs/sdim_config.yaml`` for the full training hyperparameters. 
 
 ### Evaluation on Corrupted Samples
+
+Evaluate SDIM-logit (ResNet18) on CIFAR10:
+
+```python
+python corruption_robustness_eval.py dataset=cifar10 classifier_name=resnet18
+```
+Try also different parameters for other evaluations.
+
+### Evaluation on Adversarial Samples
+
+Similarily, evaluate SDIM-logit (ResNet18) on CIFAR10:
+
+```python
+python adv_robustness_eval.py dataset=cifar10 classifier_name=resnet18
+```
+Try also different parameters for other evaluations.
+
+### Evaluation on OOD Samples Detection
+
+Similarily, evaluate SDIM-logit (ResNet18) on CIFAR10:
+
+```python
+python ood_eval.py dataset=cifar10 classifier_name=resnet18
+```
+Try also different parameters for other evaluations.
