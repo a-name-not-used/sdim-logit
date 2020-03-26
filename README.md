@@ -24,6 +24,8 @@ sdim_logits
     | ood_eval.py: code for evaluation on out-of-distribution samples. 
     | cw_attack.py: implementation of CW attack without binary search(otherwise it would be too slow).
 
+```
+
 ## Supplementary Results
 
 ### Ablation Study
@@ -36,7 +38,6 @@ Clean Test Accuracy of SDIM-logit with different combinations of scaling factors
 | 0.2 | 0.6 | 0.2| 94.87|
 | 0.2 | 0.2 | 0.6| 94.84|
 
-```
 ## Usage
 
 ### Train base discriminative classifiers
